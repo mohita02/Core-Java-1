@@ -1,0 +1,19 @@
+Final keyword
+=============
+1. It is used with the variable.
+2. It is also used with the functions.
+3. It is also used with the class.
+4. Constructor cannot be final.
+
+- It is written before the the variable, function or class.
+- A variable having final keyword cannot be overridden.
+- A final static variable can only be initialized in a static block.
+- A class having final keyword cannot be inherited.
+
+
+There are 4 types of access specifiers :
+- private
+- public
+- protected
+- default : It is by default the access specifier of a class and we need not write it. It is almost same 
+            like public.
