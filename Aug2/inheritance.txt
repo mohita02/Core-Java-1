@@ -1,0 +1,82 @@
+Credit cards, Many types of credit cards are available and most of them have some set of shared properties and some specific, and many a times due to many types of cards, they are grouped under various levels for a better understanding to pick cards for a purpose. Let’s implement a simple multi-level hierarchy as given below. 
+CreditCard
+     ---- RewardsCreditCard 
+     ---- TravelCreditCard 
+                  ---- InternationalTravelCreditCard
+                  ---- CountryTravelCreditCard
+Read the creditcard and travel details from user then calculate the travel amount by using of multilevel inheritance. If the user choose the creditcard type which is not mentioned in list means then display "Invalid Card Type".
+Create a class CreditCard with following private data members. 
+
+Data TypeVariable NameStringnumberStringholderNameDoubleamount
+
+Use appropriate Getters Setters for CreditCard class.
+
+
+Create the class TravelCreditcard which extends the class CreditCard with following  private data member
+Data TypeVariable NameDoubleexchangePercentage
+
+Use appropriate Getters Setters for TravelCreditcard class.
+
+Create the class RewardsCreditCard which extends the class CreditCard with following  private data member 
+
+
+
+Data TypeVariable NameDoublecreditPoints
+Methods in class RewardsCreditCard
+Method NameFunctionReturn TypecalculateAmount(Double amount,Integer numberOfPersons)Use creditPoints percentage to calculate the payment amount
+where user get a discount of 5% of credit points on every ticket.Double
+
+Create the class InternationalCard which extends the class TravelCreditcard 
+Method NameFunctionReturn TypecalculateAmount(Double amount,Integer numberOfPersons)Use exchange Percentage to calculate the payment amount
+where user get a discount of 10% of amount on every ticket.Double
+Create the class CountryCard which extends the class TravelCreditcard 
+Method NameFunctionReturn TypecalculateAmount(Double amount,Integer numberOfPersons)Use exchange Percentage to calculate the payment amount
+where user get a discount of 10% of amount on every ticket.Double
+Use Appropriate Getters Setters for the above classes. 
+ 
+Create a driver class named Main which creates an instance of the above mentioned classes. 
+ 
+Sample Input and Output 1:
+[All text in bold corresponds to input and the rest corresponds to output.]
+
+Enter the travel details
+Travel Place
+Banglore
+Number of tickets
+2
+Cost per ticket
+1500
+1)Travel Creditcard
+2)RewardCreditcard
+Enter credit card type
+1
+1)International
+2)National
+Enter travel creditcard type
+1
+Enter the creditcard number
+123456794
+Enter the creditcard holdername
+Praveen
+Enter the available amount
+65255
+Hello Praveen, You have to pay Rs2700.0 
+ 
+Sample Input and Output 2:
+ 
+Enter the travel details
+Travel Place
+Chennai
+Number of tickets
+20
+Cost per ticket
+150
+1)Travel Creditcard
+2)RewardCreditcard
+Enter credit card type
+3
+Invalid Card Type
+
+
+
+
