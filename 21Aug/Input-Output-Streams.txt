@@ -78,3 +78,6 @@ class FileInputStreamDemo{
 }
 
 
+for ByteArrayOutputStream we have size() instead of available().
+
+
