@@ -3,3 +3,8 @@ In java 7, a new thing is introduced.
 " try with resource " : try(  ){ }
 In the arguments if try we passs the objects of the input stream we are using.
 Therefore, we don't need finally.
+
+- CharArrayReader Class : In this the data will be read in the character array.
+- CharArrayWriter Class : In this the data will be written in the character array.
+- BufferedReader Class :
+- BufferedWriter Class :
