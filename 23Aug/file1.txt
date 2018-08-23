@@ -1,0 +1,10 @@
+A
+100
+45.451
+Thu Aug 23 10:27:26 IST 2018
+
+This is an example of Print Stream Class
+
+a
+Append Method of PrintStream
+Example Print StreamThis is a Example Print Stream application.
