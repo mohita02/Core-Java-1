@@ -1,0 +1,5 @@
+In SequenceInputStream we can read the data from 2 input streams simultaneously
+In java 7, a new thing is introduced.
+" try with resource " : try(  ){ }
+In the arguments if try we passs the objects of the input stream we are using.
+Therefore, we don't need finally.
