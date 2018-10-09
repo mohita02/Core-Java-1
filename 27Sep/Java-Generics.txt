@@ -1,0 +1,27 @@
+JAVA GENRICS
+=============
+
+Example 1: Naming Dictionary
+
+String[] s = new String[];
+s[0] = 
+s[1] = 
+s[2] =
+
+Example 2:
+
+ArrayList l = new ArrayList();
+l.add("Mayank");
+
+String name1 = (String)l.get(0);
+
+Generics Classes
+-----------------
+class Al{
+	add(Object obj);
+	Object get(int index);
+}
+
+class Al<T>{
+	add(T a);
+	T gt
